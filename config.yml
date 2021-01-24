@@ -1,0 +1,18 @@
+title: Deep-Learning-Specialization-(coursera)
+description: >-
+  I have codes and projects completed during the Deep Learning Specialization
+  course taken from coursera.org. Instructor: Andrew Ng
+template:
+  repo: deep-learning-specialization-(coursera)-template
+  name: deep-learning-specialization-(coursera)
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
